@@ -1,5 +1,5 @@
-var playlist={shamak:"mohabbat kar le kar le"}
+var playlist={shamak:"mohabbat kar le kar le"};
 
-Function updatePlaylist(playlist,name,value){
-  Object.A
+function updatePlaylist(playlist,name,value){
+  return Object.assign(playlist,{[name]:value})
 }
