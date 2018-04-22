@@ -4,5 +4,5 @@ function updatePlaylist(playlist,name,value){
   return Object.assign(playlist,{[name]:value})
 }
 function removeFromPlaylist(playlist,name){
-  delete.
+  delete.playlist=name;
 }
